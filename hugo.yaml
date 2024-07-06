@@ -1,0 +1,96 @@
+baseURL: "https://maribowman.github.io/"
+title: "mari baumann"
+languageCode: "en-us"
+theme: [ "PaperMod" ]
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: [ ]
+
+minify:
+  disableXML: true
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+#    menu:
+#      main:
+#        - name: blog
+#          url: archives
+#          weight: 5
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "my personal website"
+  author: "mari baumann"
+
+  defaultTheme: auto
+  disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  images: [ "images/papermod-cover.png" ]
+
+  homeInfoParams:
+    Title: "Hey stranger ✌️"
+    Content: >
+      I'm Mari from 🇩🇪 and I like ☕, 🥨 and 🥓. </br>
+      Apart from that, I do crossfit, trade forex and code industrial backends for a living.
+
+  socialIcons:
+    - name: github
+      title: github profile
+      url: "https://github.com/maribowman"
+    - name: Stackoverflow
+      title: stackoverflow profile
+      url: "https://stackoverflow.com/users/5170831/mari-bowman"
+    - name: Discord
+      title: discord profile
+      url: "https://discordapp.com/users/751107792634380442/"
+    - name: LinkedIn
+      title: linkedin profile
+      url: "https://www.linkedin.com/in/mariusbaumann/"
+    - name: KoFi
+      title: buy me a ko-fi!
+      url: "https://ko-fi.com/maribowman"
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
