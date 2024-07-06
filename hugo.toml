@@ -1,3 +1,40 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://maribowman.github.io/"
+languageCode = "en-us"
+theme = "nightfall"
+
+[menu]
+[[menu.header]]
+name = "blog"
+weight = 0
+url = "blog"
+[[menu.header]]
+name = "about"
+weight = 1
+url = "about"
+
+[params]
+user = ""
+hostname = "home"
+footerHtml = "made with ☕"
+published = false
+readingTime = false
+
+[params.author]
+name = "mari baumann"
+
+[[params.social]]
+key = 0
+name = "github"
+icon="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+url = "https://github.com/maribowman/"
+target = "_blank"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/mariusbaumann/"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:main@maribowman.dev"
