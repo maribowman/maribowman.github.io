@@ -1,6 +1,6 @@
 baseURL = "https://maribowman.github.io/"
 languageCode = "en-us"
-theme = "nightfall"
+theme = "PaperMod"
 
 [menu]
 [[menu.header]]
@@ -25,7 +25,6 @@ name = "mari baumann"
 [[params.social]]
 key = 0
 name = "github"
-icon="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
 url = "https://github.com/maribowman/"
 target = "_blank"
 
